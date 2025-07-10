@@ -196,11 +196,7 @@
                 <div class="card-body d-flex flex-column gap-2">
                     <span id="stackCard" class="d-flex gap-1"></span>
                     <h5 id="tituloCard" class="card-title mt-2"></h5>
-                    <p id="descricaoCard" class="card-text"></p>
                     <div class="">
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#portfolioModal" id="btnVerProjeto">
-                            Ver projeto
-                        </button>
                         <a id="urlRepositorio" class="btn btn-outline-light">Repositório</a>
                     </div>
 
@@ -208,10 +204,10 @@
             </div>
 
             <div class="d-flex flex-wrap justify-content-center gap-2 mt-3">
-                <button id="btnSelecionarPrimeiroCard" class="btn btn-primary" style="width: 240px;">Controle de Medicamentos</button>
-                
+                <button id="btnSelecionarPrimeiroCard" class="btn btn-primary" style="width: 240px;">Gestão de Medicamentos</button>
+                <button id="btnSelecionarSegundoCard" class="btn btn-primary" style="width: 240px;">Controle de Bar</button>
+                <button id="btnSelecionarTerceiroCard" class="btn btn-primary" style="width: 240px;">E-Agenda</button>
             </div>
-
         </section>
 
         <section id="contato" class="rounded-4 mt-3 p-3 p-lg-4">
@@ -263,20 +259,6 @@
 
         </section>
     </main>
-
-    <div class="modal fade" id="portfolioModal" tabindex="-1" aria-labelledby="portfolioModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-md">
-            <div class="modal-content bg-dark text-white rounded-4">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="portfolioModalLabel"></h5>
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
-                </div>
-                <div class="modal-body text-center rounded-bottom-4 modal-body-customizado">
-                    <img id="portfolioModalImage" src="" alt="Imagem do Projeto" class="img-fluid mb-3" />
-                </div>
-            </div>
-        </div>
-    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
     <script charset="utf-8" src="./index.js"></script>
