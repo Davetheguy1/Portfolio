@@ -147,6 +147,10 @@
                     <img width="75" src="https://skillicons.dev/icons?i=github&theme=light" alt="GitHub">
                     <span class="text-white">GitHub</span>
                 </div>
+                <div class="d-flex flex-column align-items-center gap-2">
+                    <img width="75" src="https://skillicons.dev/icons?i=azure&theme=light" alt="Azure">
+                    <span class="text-white">Azure</span>
+                </div>
             </div>
         </section>
 
@@ -214,7 +218,21 @@
 
             <span class="text-white fw-bold fs-1">Contato</span>
 
-            
+            <form class="mt-4" method="post" action="#">
+              <div class="mb-3">
+                <label for="name" class="form-label text-white">Nome</label>
+                <input type="text" class="form-control bg-dark text-white border-secondary" id="name" name="name" placeholder="Seu nome" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label text-white">Email</label>
+                <input type="email" class="form-control bg-dark text-white border-secondary" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+              </div>
+              <div class="mb-3">
+               <label for="message" class="form-label text-white">Mensagem</label>
+               <textarea class="form-control bg-dark text-white border-secondary" id="message" name="message" rows="4" placeholder="Escreva sua mensagem..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+            </form>
 
             <div class="d-flex flex-row justify-content-center gap-5 mt-4">
 
@@ -230,6 +248,8 @@
                 
 
             </div>
+
+            
             
             <div class="d-flex mt-3">
                 <a target="_blank" href="https://github.com/Davetheguy1">
